@@ -1,0 +1,217 @@
+/* font-family: 'Lato', sans-serif; */
+
+:root{
+    --primary: rgba(0, 0, 0, 0.826);
+    --secondary: rgba(255, 255, 255, 0.815);
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    /* color: rgba(0, 0, 0, 0.502); */
+}
+
+
+.main_hero .row1{
+    
+    height: 100vh;
+}
+
+.left_hero{
+background-color: var(--secondary);
+text-align: center;
+}
+
+.left_hero .information{
+    margin: 16%;
+}
+.right_hero{
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.ayush_img{
+    margin: 10%;
+    width: 50%;
+}
+
+.ayush_img:hover{
+    transform: rotate(-5deg);
+    cursor: pointer;
+}
+
+.navbar{
+    margin-top: 18%;
+   
+}
+
+
+
+.navbar .col-6{
+    text-decoration: underline;
+    transition: rotate 1.1s;
+    
+}
+
+.navbar .col-6:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transform: rotate(-8deg);
+}
+
+
+.navbar a{
+    color: black;
+}
+
+.navbar a:hover{
+    color: white;
+}
+.socials{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.socials a{
+    color: white;
+}
+
+.facebook:hover{
+background-color: #3b5998;
+cursor: pointer;
+}
+
+.github:hover{
+    background-color: #171515;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    background-color: #26a7de;
+    cursor: pointer;
+}
+
+
+
+.linkedin:hover{
+    background-color: #0072b1;
+    cursor: pointer;
+}
+
+
+
+.instagram:hover{
+    background-color: #E1306C;
+    cursor: pointer;
+}
+
+
+.fordark{
+    --secondary:rgba(0, 0, 0, 0.826);
+    color: white;
+}
+
+.fordark1 a{
+   color: white;
+}
+
+
+
+#here{
+    font-size: 180%;
+}
+
+#here:hover{
+transform: scale(1.5);
+cursor: pointer;
+
+}
+
+
+
+.work{
+height: 100vh;
+text-align: center;
+}
+
+
+ /* .firstrow{
+    height: 45vh;
+} 
+*/
+.firstrow .col img,
+.secondrow .col img{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+    border: white 2px solid;
+    transition: 0.3s;
+    
+} 
+
+.firstrow .col img:hover,
+.secondrow .col img:hover{
+   
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.resume{
+    
+    background-color: var(--primary);;
+    color: white;
+}
+
+.workrow{
+height: 100vh;
+
+}
+
+.display{
+    height: 100vh;
+    
+}
+
+.firstrow p,
+.secondrow p{
+    text-align: center;
+    margin-top: 5%;
+    border: 2px solid black;
+    width: 50%;
+    margin-left: auto;
+border-radius: 20px;
+    margin-right: auto;
+}
+
+.resume1{
+    margin-top: 110%;
+}
+
+.resume1 button{
+    margin-top: 15%;
+    color: black;
+    background-color: white;
+    margin: 20%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+.information a{
+    color: #171515;
+}
+
+.information a:hover{
+    background-color: black;
+    color: white;
+}
+
